@@ -1,0 +1,23 @@
+
+html{
+    height:fit-content;
+}
+
+.conteudo h1{
+    font-family: Nunito;
+    font-weight: 900;
+}
+
+.grid-imagens h1{
+    font-family: Nunito;
+    font-weight: 900;
+}
+
+.texto-branco{
+    color: whitesmoke;
+}
+
+.texto-mais-escuro{
+
+    color: rgb(68, 68, 68);
+}

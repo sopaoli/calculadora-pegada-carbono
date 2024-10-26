@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel='stylesheet icone' href='https://css.gg/css'>
+    <link rel="stylesheet euquefiz" href="css/estilo.css">
+    <link rel="stylesheet euquefiz" href="css/praticassustentaveis.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/site.js"></script>
+
+</head>
+
+<body>
+
+
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img id="logo" src="https://www.imagemhost.com.br/images/2022/04/07/logo.png" alt="logo.png" />
+            </a>
+            <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+    </div>     
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="index.html"><i class="icone gg-calculator"></i>Calculadora</a></li>
+                <li><a href="pegadacarbono.html"><i class="gg-cloud"></i>O que é a Pegada de Carbono</a></li>
+                <li><a href="comofunciona.html"><i class="icone gg-notes"></i>Como funciona a Calculadora</a></li>
+                <li class="uk-active" ><a href="praticassustentaveis.html"><i class="icone gg-trees"></i>Práticas Sustentáveis</a></li>
+                <li><a href="sobrelabtech2.html"><i class="icone gg-smile"></i>Sobre o Labtech2</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--
+     <hr class="uk-divider-icon">
+    <h1 class="uk-heading-line uk-heading-large uk-text-center uk-margin-medium-bottom" style="text-transform: uppercase;font-family:Nunito"><span>Página Em Construção</span></h1>
+    <hr class="uk-divider-icon  uk-margin-large-top">
+
+    <div class="uk-cover-container uk-margin-large-top" >
+        <iframe src="https://s7.gifyu.com/images/gifa2f984655b08b944.gif" allowfullscreen uk-cover></iframe>
+    </div>
+
+    -->
+   
+
+    <div  class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin uk-margin-medium-right uk-margin-medium-left grid-imagens"  uk-grid="masonry: true"  >
+        <div id="test-filter" class="uk-card uk-card-default uk-flex uk-height-large uk-background-cover uk-overflow-hidden uk-flex " uk-parallax="start: 100%; end: 100%; sepia: 100;" style="background-image: url('https://vivienergia.imgix.net/uploads/2020/11/17155511/compagnie-gas.jpg');">
+            <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical texto-branco">Biogás
+                <div>
+                    <a class="uk-button uk-button-default texto-branco" href="#biogas" uk-scroll>Veja mais aqui</a>
+                </div>
+            </h1>
+        </div>
+        <div id="test-filter" class=" uk-card uk-card-default uk-flex uk-height-large uk-background-cover uk-overflow-hidden uk-flex" uk-parallax="start: 100%; end: 100%; sepia: 100;" style="background-image: url('https://www.abradee.org.br/wp-content/uploads/2021/03/energia-solar.png');">
+            <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Eletricidade
+                <div>
+                    <a class="uk-button uk-button-default" href="#eletricidade" uk-scroll>Veja mais aqui</a>
+                </div>
+            </h1>
+        </div>
+        <div id="test-filter" class="uk-card uk-card-default uk-flex uk-flex-center uk-height-large uk-flex-middle uk-background-cover uk-overflow-hidden uk-flex"  uk-parallax="start: 100%; end: 100%; sepia: 100;" style="background-image: url('https://viatrolebus.com.br/wp-content/uploads/2020/04/imigrantes-noite.jpg');">
+            <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical texto-branco">Transporte
+                <div>
+                    <a class="uk-button uk-button-default texto-branco" href="#transporte" uk-scroll>Veja mais aqui</a>
+                </div>
+            </h1>
+        </div>
+    </div>
+    
+    <!--<a class="uk-button uk-button-primary uk-position-center" href="#explicacao" uk-scroll>Scroll down</a>-->
+    <div id="#explicacao" class="uk-container conteudo uk-text-justify">
+        <div id="biogas" class ="uk-container">
+            <h1>Biogás</h1>
+            <div class="uk-grid-match uk-child-width-expand@m " uk-grid>
+                <div>
+                    <div class="uk-card-small uk-card-hover uk-card-body">
+                        <p class="uk-text-center uk-text-italic">O biogás é produzido a partir de resíduos agroindustriais, esterco de animais e resíduos urbanos, entre outros. O processo acontece porque as bactérias decompõem a matéria orgânica, na ausência de oxigênio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>Em recipientes fechados chamados de biodigestores, microrganismos que naturalmente existem nos resíduos, se alimentam dos compostos orgânicos. Na digestão, na ausência de ar atmosférico, parte destes compostos se transformam em gases, e a outra parte se transforma em uma massa úmida semelhante a um adubo, que pode ser usado como biofertilizante.</p>
+                        <img src="https://www.lenoticias.com.br/extranet/thumbnail/crop/850/Noticia/proj_01_1530205139806.png">
+                    </div>
+
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>O biogás é um biocombustível limpo, renovável e de alto poder energético, podendo ser utilizado produção de energia elétrica e/ou térmica. </p>
+                        <p class="uk-text-bold">O biogás pode substituir o gás de cozinha ou gerar energia elétrica para o autoconsumo, reduzindo custos com a Distribuidora de Energia.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a class="uk-button uk-button-default  uk-text-center texto-branco" href="#explicacao" uk-scroll>Voltar</a>
+            </div>  
+        </div>
+
+
+        <hr class="uk-divider-icon">
+        
+        
+        <div id="eletricidade" uk-grid>
+            <h1>Eletricidade</h1>
+            <div class="uk-grid-match uk-child-width-expand@m " uk-grid>
+                <div>
+                    <div class="uk-card-small uk-card-hover uk-card-body">
+                        <p>Consumir energia elétrica é essencial para a realização das atividades de todas as nossas atividades cotidianas. Assistir tv, jogar no celular, escutar música, tomar banho quente, todas essas atividades gastam energia elétrica. Mas é importante saber que apesar de não emitirmos co2 ao fazer essas atividades, algumas usinas que geram a eletricidade emitem dióxido de carbono usando combustíveis fósseis para criar energia. Todo tipo de produção de energia elétrica gera impacto para o meio ambiente, algumas mais que as outras.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <img class="uk-card-small"  src="https://blog.santoangelo.com.br/wp-content/uploads/2020/05/vector-hobby-icon-set.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>Gerar energia a partir de fontes renováveis, como o vento ou o sol é bem menos impactante que a partir de fontes não-renováveis, como a energia gerada em uma termelétrica, que usa gás natural, carvão mineral, entre outros, gerando emissões de carbono na atmosfera.</p>
+                        <img src="https://i.pinimg.com/originals/4b/45/42/4b4542a27728e1c19a8fb25c7daed51d.jpg">
+                    </div>
+
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>No Brasil, ainda que a principal fonte de energia seja renovável, as hidrelétricas, temos um considerável montante de emissões de gases de efeito estufa (GEE) provenientes do setor de energia. Esse setor responde por 19% das emissões totais, só ficando atrás da agropecuária (28%) e de mudanças no uso da terra, como desmatamentos e queimadas (44%). Dentro do setor de energia, as maiores emissões de GEE são decorrentes do transporte (47%), do consumo energético industrial (14%), da produção de combustíveis (13%) e da geração de eletricidade (13%).</p>
+                        <p class="uk-text-bold">Dessa forma, para diminuir a pegada de carbono gerada pelo setor de energia elétrica é preciso substituir as fontes de combustíveis fósseis por energia renovável.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>A energia solar pode gerar energia elétrica renovável e não emite gases de efeito estufa (GEE), tendo uma baixa pegada de carbono. A energia fotovoltaica desponta como uma das melhores alternativas para diminuir as emissões de CO2 na atmosfera.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <img src="https://s3.static.brasilescola.uol.com.br/img/2019/01/aproveitamento-energia-solar.jpeg">
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>Os sistemas de módulos fotovoltaicas são responsáveis pela conversão da radiação solar, uma fonte limpa e inesgotável, em energia elétrica. Além disso, também é possível converter energia solar em energia térmica para que você possa tomar um banho quentinho, respeitando o meio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a class="uk-button uk-button-default uk-width-expand  uk-text-center texto-branco" href="#explicacao" uk-scroll>Voltar</a>
+            </div>  
+        </div>
+
+        
+        <hr class="uk-divider-icon">
+        <div id="transporte" class ="uk-container">
+            <h1>Transporte</h1>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <img src="https://www.europarl.europa.eu/resources/library/images/20190322PHT32344/20190322PHT32344_original.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <p>A queima de combustíveis líquidos fósseis, como a gasolina, o diesel ou o gás natural, em motores de combustão interna libera GEE para a atmosfera, principalmente o dióxido de carbono.</p> 
+                        <p class="uk-text-bold">O setor de transportes no Brasil é o maior responsável pelas emissões de gases efeito estufa nas cidades, sendo que esses gases são também os maiores responsáveis pela poluição do ar nas cidades.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-body">
+                        <img src="https://thumbs.dreamstime.com/b/polui%C3%A7%C3%A3o-autom%C3%B3vel-taxi-empurra-passageiros-para-uma-cidade-subornando-se-com-fuma%C3%A7a-e-causada-por-carros-ind%C3%BAstrias-213011835.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div class="uk-card uk-card-hover uk-card-body texto-mais-escuro">
+                    <p>O transporte individual, nosso carro, é movido a gasolina, que além de ser derivada do petróleo, lança na atmosfera gases que prejudicam a saúde humana e o meio ambiente. Já o transporte coletivo, o ônibus, é movido a óleo diesel, um combustível formado por moléculas de grande cadeia carbônica, emitindo muitos gases GEE.</p>
+                    <p>Além disso, metais pesados altamente nocivos fazem parte da composição do diesel, eles se acumulam no organismo humano e, depois de alguns anos, chegam a causar até mesmo males neurológicos.</p>
+                    <p>Mas os hidrocarbonetos que compõem a gasolina são mais leves do que aqueles que compõem o diesel, sendo a gasolina se torna menos poluente. Mas ambos, tanto o diesel como a gasolina, são responsáveis pela emissão do dióxido de carbono, que contribui para o efeito estufa e o aquecimento global.</p>
+                </div>
+            </div>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div class="uk-card uk-card-hover uk-card-body texto-mais-escuro">
+                    <p>O transporte individual, nosso carro, é movido a gasolina, que além de ser derivada do petróleo, lança na atmosfera gases que prejudicam a saúde humana e o meio ambiente. Já o transporte coletivo, o ônibus, é movido a óleo diesel, um combustível formado por moléculas de grande cadeia carbônica, emitindo muitos gases GEE.</p>
+                </div>
+                <div class="uk-card uk-card-hover uk-card-body texto-mais-escuro">
+                    <img src="https://pemavel.com.br/wp-content/uploads/2018/12/Como-ter-um-carro-sustent%C3%A1vel-pemavel.jpg">    
+                </div>
+            </div>
+
+            <div>
+                <a class="uk-button uk-button-default  uk-text-center texto-branco" href="#explicacao" uk-scroll>Voltar</a>
+            </div>  
+        </div>
+
+
+
+
+        <hr class="uk-divider-icon">
+        
+
+    </div>
+    </body>
